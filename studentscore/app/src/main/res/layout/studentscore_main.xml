@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="🏋️ 학생 3대 운동 성적표 🏋️ "
+        android:textSize="30dp"
+        android:textAlignment="center"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="벤치프레스 성적" />
+
+    <EditText
+        android:id="@+id/Edit1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#121212"
+        android:layout_marginBottom="10dp"
+        android:hint="BP 점수입력" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="데드리프트 성적"
+        android:layout_marginBottom="10dp"/>
+
+    <EditText
+        android:id="@+id/Edit2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#121212"
+        android:layout_marginBottom="10dp"
+        android:hint="DL 점수입력" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="스쿼트 성적"
+        android:layout_marginBottom="10dp"/>
+
+    <EditText
+        android:id="@+id/Edit3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#121212"
+        android:layout_marginBottom="10dp"
+        android:hint="SQ 점수입력" />
+
+    <Button
+        android:id="@+id/button"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="계산하기" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="계산결과" />
+
+    <ImageView
+        android:id="@+id/Img"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:srcCompat="@tools:sample/avatars" />
+
+
+</LinearLayout>

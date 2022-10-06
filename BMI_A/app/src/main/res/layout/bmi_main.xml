@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text=" 🏋️ 비만도 측정 🏋️"
+        android:layout_marginBottom="10dp"
+        android:textAlignment="center"
+        />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#121212"
+        android:layout_marginBottom="10dp"
+        android:text="몸무게"
+        />
+
+        <EditText
+            android:id="@+id/Edit1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#121212"
+            android:layout_marginBottom="10dp"
+            android:hint="Kg입력"
+/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#121212"
+        android:layout_marginBottom="10dp"
+        android:text="키입력"
+        />
+
+    <EditText
+        android:id="@+id/Edit2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#121212"
+        android:layout_marginBottom="10dp"
+        android:hint="cm입력"
+        />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="계산하기" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#121212"
+        android:text="계산결과" />
+
+    <ImageView
+        android:id="@+id/min"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:srcCompat="@tools:sample/avatars" />
+</LinearLayout>
